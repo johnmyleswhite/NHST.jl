@@ -1,7 +1,7 @@
 # Null Hypothesis Significance Tests for Julia
 
 * t-tests via Welch's two sample method
-* An exact binomial test
+* The exact binomial test
 * The chi-squared test
 * The permutation test
 
