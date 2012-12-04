@@ -1,4 +1,4 @@
-Clustering.jl is licensed under the MIT License:
+NHST.jl is licensed under the MIT License:
 
 > Copyright (c) 2012: John Myles White and other contributors.
 > 
