@@ -6,14 +6,12 @@
 
 # Installation
 
-    require("pkg")
     Pkg.add("NHST")
 
 # Usage Examples
 
 ## t-Test
 
-    load("NHST")
     using NHST
 
     srand(1)
@@ -25,14 +23,12 @@
 
 ## Binomial Test
 
-    load("NHST")
     using NHST
 
     binom_test(40, 100, 0.5)
 
 ## Chi-Squared Test
 
-    load("NHST")
 	using NHST
 
 	chi_squared_test([3, 4, 8])
