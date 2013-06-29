@@ -1,11 +1,15 @@
 module NHST
-  export binom_p_value, binom_test, chi_squared_test, t_test
+    export t_test
 
-  using Base
-  using Distributions
+    export test_statistic, p_value, ci
+    export BinomialTest, ChisqTest, TTest
 
-  include("types.jl")
-  include("binom_test.jl")
-  include("chi_squared_test.jl")
-  include("t_test.jl")
+    using Distributions
+
+	# :twosided, :greater, :less
+
+    include("types.jl")
+    include("binomial.jl")
+    include("chisq.jl")
+    include("ttest.jl")
 end
