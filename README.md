@@ -1,6 +1,10 @@
 NHST.jl
 =======
 
+# NOTICE
+
+**This package is deprecated. Use HypothesisTests.jl instead.**
+
 # Null Hypothesis Significance Tests for Julia
 
 * t-tests via Welch's two sample method
